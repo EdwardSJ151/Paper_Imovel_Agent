@@ -1,0 +1,8 @@
+.env
+__pycache__/
+cutr_jobs/
+*.glb
+dict_gpt.txt
+cutr_api.py
+.adk/
+local_data/

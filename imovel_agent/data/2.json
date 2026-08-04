@@ -1,0 +1,1296 @@
+{
+    "generatedAtUtc": "2026-08-01T19:23:35.2033308Z",
+    "coordinateSystem": "Unity: metros, Y para cima, mao esquerda",
+    "positionDescription": "position/rotation = Transform local do no item_* (igual ao Inspector)",
+    "scenePositionDescription": "scenePosition/sceneRotation = transform relativo a raiz do GLB (posicao na casa)",
+    "zoneDescription": "zone = label Pascal do poligono que contem scenePosition.xz (menor area em caso de sobreposicao)",
+    "sources": [
+        "Assets/Scenes/Imported/2.glb"
+    ],
+    "zoneCount": 6,
+    "count": 33,
+    "zones": [
+        {
+            "id": "zone_5tbrusokfhwtwkl9",
+            "label": "Bathroom",
+            "color": "#06b6d4",
+            "area": 20.0,
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "polygon": [
+                {
+                    "x": -7.0,
+                    "z": 7.0
+                },
+                {
+                    "x": -12.0,
+                    "z": 7.0
+                },
+                {
+                    "x": -12.0,
+                    "z": 11.0
+                },
+                {
+                    "x": -7.0,
+                    "z": 11.0
+                }
+            ]
+        },
+        {
+            "id": "zone_b1287kkzznzlpk9w",
+            "label": "Bedroom",
+            "color": "#22c55e",
+            "area": 22.5,
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "polygon": [
+                {
+                    "x": -7.0,
+                    "z": 0.0
+                },
+                {
+                    "x": -12.0,
+                    "z": 0.0
+                },
+                {
+                    "x": -12.0,
+                    "z": 4.5
+                },
+                {
+                    "x": -7.0,
+                    "z": 4.5
+                }
+            ]
+        },
+        {
+            "id": "zone_href0jkobklfeg96",
+            "label": "Laundry",
+            "color": "#3b82f6",
+            "area": 4.5,
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "z": 10.5
+                },
+                {
+                    "x": -3.0,
+                    "z": 10.5
+                },
+                {
+                    "x": -3.0,
+                    "z": 12.0
+                },
+                {
+                    "x": 0.0,
+                    "z": 12.0
+                }
+            ]
+        },
+        {
+            "id": "zone_los2rof08bacpjey",
+            "label": "Living / Dining / Kitchen",
+            "color": "#f59e0b",
+            "area": 79.5,
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "z": 0.0
+                },
+                {
+                    "x": -7.0,
+                    "z": 0.0
+                },
+                {
+                    "x": -7.0,
+                    "z": 12.0
+                },
+                {
+                    "x": -3.0,
+                    "z": 12.0
+                },
+                {
+                    "x": -3.0,
+                    "z": 10.5
+                },
+                {
+                    "x": 0.0,
+                    "z": 10.5
+                }
+            ]
+        },
+        {
+            "id": "zone_i2ng0qmoa0e4qim4",
+            "label": "Terrace",
+            "color": "#84cc16",
+            "area": 26.0,
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "polygon": [
+                {
+                    "x": 4.0,
+                    "z": 4.0
+                },
+                {
+                    "x": 0.0,
+                    "z": 4.0
+                },
+                {
+                    "x": 0.0,
+                    "z": 10.5
+                },
+                {
+                    "x": 4.0,
+                    "z": 10.5
+                }
+            ]
+        },
+        {
+            "id": "zone_rz4wom9192mi92gl",
+            "label": "Walk-in Closet",
+            "color": "#6366f1",
+            "area": 12.5,
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "polygon": [
+                {
+                    "x": -7.0,
+                    "z": 4.5
+                },
+                {
+                    "x": -12.0,
+                    "z": 4.5
+                },
+                {
+                    "x": -12.0,
+                    "z": 7.0
+                },
+                {
+                    "x": -7.0,
+                    "z": 7.0
+                }
+            ]
+        }
+    ],
+    "objects": [
+        {
+            "name": "bathroom_item_008",
+            "itemId": "item_sjkl0e49bedn0wed",
+            "zone": "Bathroom",
+            "zoneId": "zone_5tbrusokfhwtwkl9",
+            "zoneColor": "#06b6d4",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_sjkl0e49bedn0wed",
+            "position": {
+                "x": -8.0,
+                "y": 0.05000000074505806,
+                "z": 10.5
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -8.0,
+                "y": 0.05000000074505806,
+                "z": 10.5
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "bathroom_item_022",
+            "itemId": "item_uhvk8pwvg4kz8gl2",
+            "zone": "Bathroom",
+            "zoneId": "zone_5tbrusokfhwtwkl9",
+            "zoneColor": "#06b6d4",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_uhvk8pwvg4kz8gl2",
+            "position": {
+                "x": -11.5,
+                "y": 0.05000000074505806,
+                "z": 9.600000381469727
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -11.5,
+                "y": 0.05000000074505806,
+                "z": 9.600000381469727
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "Shower_02",
+            "itemId": "item_dh98ftawnmdu62bn",
+            "zone": "Bathroom",
+            "zoneId": "zone_5tbrusokfhwtwkl9",
+            "zoneColor": "#06b6d4",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_dh98ftawnmdu62bn",
+            "position": {
+                "x": -11.399999618530274,
+                "y": 0.05000000074505806,
+                "z": 7.599999904632568
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -11.399999618530274,
+                "y": 0.05000000074505806,
+                "z": 7.599999904632568
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "bed_015",
+            "itemId": "item_7yokdcbfr3e14jc3",
+            "zone": "Bedroom",
+            "zoneId": "zone_b1287kkzznzlpk9w",
+            "zoneColor": "#22c55e",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_7yokdcbfr3e14jc3",
+            "position": {
+                "x": -10.850000381469727,
+                "y": 0.05000000074505806,
+                "z": 2.25
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -10.850000381469727,
+                "y": 0.05000000074505806,
+                "z": 2.25
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "shelf_051",
+            "itemId": "item_dqwxprd51a7llcbt",
+            "zone": "Bedroom",
+            "zoneId": "zone_b1287kkzznzlpk9w",
+            "zoneColor": "#22c55e",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_dqwxprd51a7llcbt",
+            "position": {
+                "x": -11.600000381469727,
+                "y": 0.05000000074505806,
+                "z": 3.799999952316284
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -11.600000381469727,
+                "y": 0.05000000074505806,
+                "z": 3.799999952316284
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "shelf_051",
+            "itemId": "item_ucsbzc0zt5njgztb",
+            "zone": "Bedroom",
+            "zoneId": "zone_b1287kkzznzlpk9w",
+            "zoneColor": "#22c55e",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_ucsbzc0zt5njgztb",
+            "position": {
+                "x": -11.600000381469727,
+                "y": 0.05000000074505806,
+                "z": 0.699999988079071
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -11.600000381469727,
+                "y": 0.05000000074505806,
+                "z": 0.699999988079071
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "bathroom_item_008",
+            "itemId": "item_bxerxmqbmgv1byja",
+            "zone": "Laundry",
+            "zoneId": "zone_href0jkobklfeg96",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_bxerxmqbmgv1byja",
+            "position": {
+                "x": -2.200000047683716,
+                "y": 0.05000000074505806,
+                "z": 11.550000190734864
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -2.200000047683716,
+                "y": 0.05000000074505806,
+                "z": 11.550000190734864
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "bathroom_item_010",
+            "itemId": "item_2mo7lh04b3956a0q",
+            "zone": "Laundry",
+            "zoneId": "zone_href0jkobklfeg96",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_2mo7lh04b3956a0q",
+            "position": {
+                "x": -1.100000023841858,
+                "y": 0.05000000074505806,
+                "z": 11.550000190734864
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -1.100000023841858,
+                "y": 0.05000000074505806,
+                "z": 11.550000190734864
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "armchair_002",
+            "itemId": "item_uogpeoaq732yvyys",
+            "zone": "Living / Dining / Kitchen",
+            "zoneId": "zone_los2rof08bacpjey",
+            "zoneColor": "#f59e0b",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_uogpeoaq732yvyys",
+            "position": {
+                "x": -3.5999999046325685,
+                "y": 0.05000000074505806,
+                "z": 4.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 110.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -3.5999999046325685,
+                "y": 0.05000000074505806,
+                "z": 4.0
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 110.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "chair031",
+            "itemId": "item_5az77iqwikskhs5y",
+            "zone": "Living / Dining / Kitchen",
+            "zoneId": "zone_los2rof08bacpjey",
+            "zoneColor": "#f59e0b",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_5az77iqwikskhs5y",
+            "position": {
+                "x": -3.9000000953674318,
+                "y": 0.05000000074505806,
+                "z": 8.300000190734864
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -3.9000000953674318,
+                "y": 0.05000000074505806,
+                "z": 8.300000190734864
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "chair031",
+            "itemId": "item_8acm8k10gwxd4oew",
+            "zone": "Living / Dining / Kitchen",
+            "zoneId": "zone_los2rof08bacpjey",
+            "zoneColor": "#f59e0b",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_8acm8k10gwxd4oew",
+            "position": {
+                "x": -3.9000000953674318,
+                "y": 0.05000000074505806,
+                "z": 7.5
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -3.9000000953674318,
+                "y": 0.05000000074505806,
+                "z": 7.5
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "chair031",
+            "itemId": "item_lx0syzr7fwyi1swk",
+            "zone": "Living / Dining / Kitchen",
+            "zoneId": "zone_los2rof08bacpjey",
+            "zoneColor": "#f59e0b",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_lx0syzr7fwyi1swk",
+            "position": {
+                "x": -3.9000000953674318,
+                "y": 0.05000000074505806,
+                "z": 9.100000381469727
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -3.9000000953674318,
+                "y": 0.05000000074505806,
+                "z": 9.100000381469727
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "coffee_table",
+            "itemId": "item_rfbk29w66vx0typq",
+            "zone": "Living / Dining / Kitchen",
+            "zoneId": "zone_los2rof08bacpjey",
+            "zoneColor": "#f59e0b",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_rfbk29w66vx0typq",
+            "position": {
+                "x": -2.200000047683716,
+                "y": 0.05000000074505806,
+                "z": 2.700000047683716
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -2.200000047683716,
+                "y": 0.05000000074505806,
+                "z": 2.700000047683716
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "flower_010",
+            "itemId": "item_i61hkglh7sbfic0g",
+            "zone": "Living / Dining / Kitchen",
+            "zoneId": "zone_los2rof08bacpjey",
+            "zoneColor": "#f59e0b",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_i61hkglh7sbfic0g",
+            "position": {
+                "x": -0.6000000238418579,
+                "y": 0.05000000074505806,
+                "z": 0.699999988079071
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -0.6000000238418579,
+                "y": 0.05000000074505806,
+                "z": 0.699999988079071
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_chair_030",
+            "itemId": "item_3kjrm1fote36y4te",
+            "zone": "Living / Dining / Kitchen",
+            "zoneId": "zone_los2rof08bacpjey",
+            "zoneColor": "#f59e0b",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_3kjrm1fote36y4te",
+            "position": {
+                "x": -3.0,
+                "y": 0.05000000074505806,
+                "z": 6.800000190734863
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -3.0,
+                "y": 0.05000000074505806,
+                "z": 6.800000190734863
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_chair_030",
+            "itemId": "item_alx39titx9ef8ydy",
+            "zone": "Living / Dining / Kitchen",
+            "zoneId": "zone_los2rof08bacpjey",
+            "zoneColor": "#f59e0b",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_alx39titx9ef8ydy",
+            "position": {
+                "x": -4.0,
+                "y": 0.05000000074505806,
+                "z": 5.599999904632568
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -4.0,
+                "y": 0.05000000074505806,
+                "z": 5.599999904632568
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_chair_030",
+            "itemId": "item_gqtcfevxs7d4w4s4",
+            "zone": "Living / Dining / Kitchen",
+            "zoneId": "zone_los2rof08bacpjey",
+            "zoneColor": "#f59e0b",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_gqtcfevxs7d4w4s4",
+            "position": {
+                "x": -5.0,
+                "y": 0.05000000074505806,
+                "z": 6.800000190734863
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -5.0,
+                "y": 0.05000000074505806,
+                "z": 6.800000190734863
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_chair_030",
+            "itemId": "item_n3jwp1knkx7s5m7f",
+            "zone": "Living / Dining / Kitchen",
+            "zoneId": "zone_los2rof08bacpjey",
+            "zoneColor": "#f59e0b",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_n3jwp1knkx7s5m7f",
+            "position": {
+                "x": -4.0,
+                "y": 0.05000000074505806,
+                "z": 6.800000190734863
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -4.0,
+                "y": 0.05000000074505806,
+                "z": 6.800000190734863
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_chair_030",
+            "itemId": "item_rpskz6mnd0awg0os",
+            "zone": "Living / Dining / Kitchen",
+            "zoneId": "zone_los2rof08bacpjey",
+            "zoneColor": "#f59e0b",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_rpskz6mnd0awg0os",
+            "position": {
+                "x": -3.0,
+                "y": 0.05000000074505806,
+                "z": 5.599999904632568
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -3.0,
+                "y": 0.05000000074505806,
+                "z": 5.599999904632568
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_chair_030",
+            "itemId": "item_wq68mxamp02i48qe",
+            "zone": "Living / Dining / Kitchen",
+            "zoneId": "zone_los2rof08bacpjey",
+            "zoneColor": "#f59e0b",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_wq68mxamp02i48qe",
+            "position": {
+                "x": -5.0,
+                "y": 0.05000000074505806,
+                "z": 5.599999904632568
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -5.0,
+                "y": 0.05000000074505806,
+                "z": 5.599999904632568
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_item_018",
+            "itemId": "item_ukdi11ejb49yqeah",
+            "zone": "Living / Dining / Kitchen",
+            "zoneId": "zone_los2rof08bacpjey",
+            "zoneColor": "#f59e0b",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_ukdi11ejb49yqeah",
+            "position": {
+                "x": -3.0,
+                "y": 0.05000000074505806,
+                "z": 8.300000190734864
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -3.0,
+                "y": 0.05000000074505806,
+                "z": 8.300000190734864
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_item_019",
+            "itemId": "item_atbvvds987pjn7d3",
+            "zone": "Living / Dining / Kitchen",
+            "zoneId": "zone_los2rof08bacpjey",
+            "zoneColor": "#f59e0b",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_atbvvds987pjn7d3",
+            "position": {
+                "x": -0.5,
+                "y": 0.05000000074505806,
+                "z": 9.600000381469727
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -0.5,
+                "y": 0.05000000074505806,
+                "z": 9.600000381469727
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_item_030",
+            "itemId": "item_e93ahkbvq0bk0w08",
+            "zone": "Living / Dining / Kitchen",
+            "zoneId": "zone_los2rof08bacpjey",
+            "zoneColor": "#f59e0b",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_e93ahkbvq0bk0w08",
+            "position": {
+                "x": -0.5,
+                "y": 0.05000000074505806,
+                "z": 7.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -0.5,
+                "y": 0.05000000074505806,
+                "z": 7.0
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_item_038",
+            "itemId": "item_edp9tk5jrfxq2g0q",
+            "zone": "Living / Dining / Kitchen",
+            "zoneId": "zone_los2rof08bacpjey",
+            "zoneColor": "#f59e0b",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_edp9tk5jrfxq2g0q",
+            "position": {
+                "x": -0.4000000059604645,
+                "y": 0.05000000074505806,
+                "z": 8.199999809265137
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -0.4000000059604645,
+                "y": 0.05000000074505806,
+                "z": 8.199999809265137
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_table_001",
+            "itemId": "item_rnc5r8sjjwyfnb65",
+            "zone": "Living / Dining / Kitchen",
+            "zoneId": "zone_los2rof08bacpjey",
+            "zoneColor": "#f59e0b",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_rnc5r8sjjwyfnb65",
+            "position": {
+                "x": -4.0,
+                "y": 0.05000000074505806,
+                "z": 6.199999809265137
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -4.0,
+                "y": 0.05000000074505806,
+                "z": 6.199999809265137
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "sofa_005",
+            "itemId": "item_r262jltqwzuudorw",
+            "zone": "Living / Dining / Kitchen",
+            "zoneId": "zone_los2rof08bacpjey",
+            "zoneColor": "#f59e0b",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_r262jltqwzuudorw",
+            "position": {
+                "x": -0.699999988079071,
+                "y": 0.05000000074505806,
+                "z": 2.5999999046325685
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -0.699999988079071,
+                "y": 0.05000000074505806,
+                "z": 2.5999999046325685
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "bush_001",
+            "itemId": "item_fxhy5v622q7bx9av",
+            "zone": "Terrace",
+            "zoneId": "zone_i2ng0qmoa0e4qim4",
+            "zoneColor": "#84cc16",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_fxhy5v622q7bx9av",
+            "position": {
+                "x": 3.0,
+                "y": 0.05000000074505806,
+                "z": 9.600000381469727
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": 3.0,
+                "y": 0.05000000074505806,
+                "z": 9.600000381469727
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "coffee_table_001",
+            "itemId": "item_40mfdo7cdnn4i2lk",
+            "zone": "Terrace",
+            "zoneId": "zone_i2ng0qmoa0e4qim4",
+            "zoneColor": "#84cc16",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_40mfdo7cdnn4i2lk",
+            "position": {
+                "x": 1.600000023841858,
+                "y": 0.05000000074505806,
+                "z": 6.599999904632568
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": 1.600000023841858,
+                "y": 0.05000000074505806,
+                "z": 6.599999904632568
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "lounge_chair_014",
+            "itemId": "item_m3fik7nfwbdkpnlt",
+            "zone": "Terrace",
+            "zoneId": "zone_i2ng0qmoa0e4qim4",
+            "zoneColor": "#84cc16",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_m3fik7nfwbdkpnlt",
+            "position": {
+                "x": 2.9000000953674318,
+                "y": 0.05000000074505806,
+                "z": 5.800000190734863
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": 2.9000000953674318,
+                "y": 0.05000000074505806,
+                "z": 5.800000190734863
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "lounge_chair_014",
+            "itemId": "item_nd6uf51vsdhpbxiw",
+            "zone": "Terrace",
+            "zoneId": "zone_i2ng0qmoa0e4qim4",
+            "zoneColor": "#84cc16",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_nd6uf51vsdhpbxiw",
+            "position": {
+                "x": 2.9000000953674318,
+                "y": 0.05000000074505806,
+                "z": 7.400000095367432
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": 2.9000000953674318,
+                "y": 0.05000000074505806,
+                "z": 7.400000095367432
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "palm_001",
+            "itemId": "item_i90d9agrfmbrt682",
+            "zone": "Terrace",
+            "zoneId": "zone_i2ng0qmoa0e4qim4",
+            "zoneColor": "#84cc16",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_i90d9agrfmbrt682",
+            "position": {
+                "x": 0.699999988079071,
+                "y": 0.05000000074505806,
+                "z": 9.699999809265137
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": 0.699999988079071,
+                "y": 0.05000000074505806,
+                "z": 9.699999809265137
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "closet_016",
+            "itemId": "item_ag4ytd2r929ddsr9",
+            "zone": "Walk-in Closet",
+            "zoneId": "zone_rz4wom9192mi92gl",
+            "zoneColor": "#6366f1",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_ag4ytd2r929ddsr9",
+            "position": {
+                "x": -8.300000190734864,
+                "y": 0.05000000074505806,
+                "z": 4.949999809265137
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -8.300000190734864,
+                "y": 0.05000000074505806,
+                "z": 4.949999809265137
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "closet_016",
+            "itemId": "item_vd6his6igdtf7wh4",
+            "zone": "Walk-in Closet",
+            "zoneId": "zone_rz4wom9192mi92gl",
+            "zoneColor": "#6366f1",
+            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_vd6his6igdtf7wh4",
+            "position": {
+                "x": -11.5,
+                "y": 0.05000000074505806,
+                "z": 6.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -11.5,
+                "y": 0.05000000074505806,
+                "z": 6.0
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            }
+        }
+    ]
+}
