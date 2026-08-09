@@ -1,11 +1,12 @@
 {
-    "generatedAtUtc": "2026-08-01T19:23:35.2033308Z",
+    "generatedAtUtc": "2026-08-08T19:39:01.9558608Z",
     "coordinateSystem": "Unity: metros, Y para cima, mao esquerda",
     "positionDescription": "position/rotation = Transform local do no item_* (igual ao Inspector)",
     "scenePositionDescription": "scenePosition/sceneRotation = transform relativo a raiz do GLB (posicao na casa)",
+    "scenePathDescription": "scenePath = caminho sob o filho Scene do item (ex.: Scene/coffee_table)",
     "zoneDescription": "zone = label Pascal do poligono que contem scenePosition.xz (menor area em caso de sobreposicao)",
     "sources": [
-        "Assets/Scenes/Imported/2.glb"
+        "scene:Walkthrough/2 chatpgt"
     ],
     "zoneCount": 6,
     "count": 33,
@@ -15,7 +16,7 @@
             "label": "Bathroom",
             "color": "#06b6d4",
             "area": 20.0,
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "sourceGlb": "Assets/Scenes/Imported/2 chatpgt.glb",
             "polygon": [
                 {
                     "x": -7.0,
@@ -40,7 +41,7 @@
             "label": "Bedroom",
             "color": "#22c55e",
             "area": 22.5,
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "sourceGlb": "Assets/Scenes/Imported/2 chatpgt.glb",
             "polygon": [
                 {
                     "x": -7.0,
@@ -65,7 +66,7 @@
             "label": "Laundry",
             "color": "#3b82f6",
             "area": 4.5,
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "sourceGlb": "Assets/Scenes/Imported/2 chatpgt.glb",
             "polygon": [
                 {
                     "x": 0.0,
@@ -90,7 +91,7 @@
             "label": "Living / Dining / Kitchen",
             "color": "#f59e0b",
             "area": 79.5,
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "sourceGlb": "Assets/Scenes/Imported/2 chatpgt.glb",
             "polygon": [
                 {
                     "x": 0.0,
@@ -123,7 +124,7 @@
             "label": "Terrace",
             "color": "#84cc16",
             "area": 26.0,
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "sourceGlb": "Assets/Scenes/Imported/2 chatpgt.glb",
             "polygon": [
                 {
                     "x": 4.0,
@@ -148,7 +149,7 @@
             "label": "Walk-in Closet",
             "color": "#6366f1",
             "area": 12.5,
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
+            "sourceGlb": "Assets/Scenes/Imported/2 chatpgt.glb",
             "polygon": [
                 {
                     "x": -7.0,
@@ -173,11 +174,12 @@
         {
             "name": "bathroom_item_008",
             "itemId": "item_sjkl0e49bedn0wed",
+            "scenePath": "Scene/bathroom_item_008",
             "zone": "Bathroom",
             "zoneId": "zone_5tbrusokfhwtwkl9",
             "zoneColor": "#06b6d4",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_sjkl0e49bedn0wed",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_sjkl0e49bedn0wed",
             "position": {
                 "x": -8.0,
                 "y": 0.05000000074505806,
@@ -207,11 +209,12 @@
         {
             "name": "bathroom_item_022",
             "itemId": "item_uhvk8pwvg4kz8gl2",
+            "scenePath": "Scene/bathroom_item_022",
             "zone": "Bathroom",
             "zoneId": "zone_5tbrusokfhwtwkl9",
             "zoneColor": "#06b6d4",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_uhvk8pwvg4kz8gl2",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_uhvk8pwvg4kz8gl2",
             "position": {
                 "x": -11.5,
                 "y": 0.05000000074505806,
@@ -241,11 +244,12 @@
         {
             "name": "Shower_02",
             "itemId": "item_dh98ftawnmdu62bn",
+            "scenePath": "Scene/Shower_02",
             "zone": "Bathroom",
             "zoneId": "zone_5tbrusokfhwtwkl9",
             "zoneColor": "#06b6d4",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_dh98ftawnmdu62bn",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_dh98ftawnmdu62bn",
             "position": {
                 "x": -11.399999618530274,
                 "y": 0.05000000074505806,
@@ -275,11 +279,12 @@
         {
             "name": "bed_015",
             "itemId": "item_7yokdcbfr3e14jc3",
+            "scenePath": "Scene/bed_015",
             "zone": "Bedroom",
             "zoneId": "zone_b1287kkzznzlpk9w",
             "zoneColor": "#22c55e",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_7yokdcbfr3e14jc3",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_7yokdcbfr3e14jc3",
             "position": {
                 "x": -10.850000381469727,
                 "y": 0.05000000074505806,
@@ -309,11 +314,12 @@
         {
             "name": "shelf_051",
             "itemId": "item_dqwxprd51a7llcbt",
+            "scenePath": "Scene/shelf_051",
             "zone": "Bedroom",
             "zoneId": "zone_b1287kkzznzlpk9w",
             "zoneColor": "#22c55e",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_dqwxprd51a7llcbt",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_dqwxprd51a7llcbt",
             "position": {
                 "x": -11.600000381469727,
                 "y": 0.05000000074505806,
@@ -343,11 +349,12 @@
         {
             "name": "shelf_051",
             "itemId": "item_ucsbzc0zt5njgztb",
+            "scenePath": "Scene/shelf_051",
             "zone": "Bedroom",
             "zoneId": "zone_b1287kkzznzlpk9w",
             "zoneColor": "#22c55e",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_ucsbzc0zt5njgztb",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_ucsbzc0zt5njgztb",
             "position": {
                 "x": -11.600000381469727,
                 "y": 0.05000000074505806,
@@ -377,11 +384,12 @@
         {
             "name": "bathroom_item_008",
             "itemId": "item_bxerxmqbmgv1byja",
+            "scenePath": "Scene/bathroom_item_008",
             "zone": "Laundry",
             "zoneId": "zone_href0jkobklfeg96",
             "zoneColor": "#3b82f6",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_bxerxmqbmgv1byja",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_bxerxmqbmgv1byja",
             "position": {
                 "x": -2.200000047683716,
                 "y": 0.05000000074505806,
@@ -411,11 +419,12 @@
         {
             "name": "bathroom_item_010",
             "itemId": "item_2mo7lh04b3956a0q",
+            "scenePath": "Scene/bathroom_item_010",
             "zone": "Laundry",
             "zoneId": "zone_href0jkobklfeg96",
             "zoneColor": "#3b82f6",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_2mo7lh04b3956a0q",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_2mo7lh04b3956a0q",
             "position": {
                 "x": -1.100000023841858,
                 "y": 0.05000000074505806,
@@ -445,11 +454,12 @@
         {
             "name": "armchair_002",
             "itemId": "item_uogpeoaq732yvyys",
+            "scenePath": "Scene/armchair_002",
             "zone": "Living / Dining / Kitchen",
             "zoneId": "zone_los2rof08bacpjey",
             "zoneColor": "#f59e0b",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_uogpeoaq732yvyys",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_uogpeoaq732yvyys",
             "position": {
                 "x": -3.5999999046325685,
                 "y": 0.05000000074505806,
@@ -479,11 +489,12 @@
         {
             "name": "chair031",
             "itemId": "item_5az77iqwikskhs5y",
+            "scenePath": "Scene/chair031",
             "zone": "Living / Dining / Kitchen",
             "zoneId": "zone_los2rof08bacpjey",
             "zoneColor": "#f59e0b",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_5az77iqwikskhs5y",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_5az77iqwikskhs5y",
             "position": {
                 "x": -3.9000000953674318,
                 "y": 0.05000000074505806,
@@ -513,11 +524,12 @@
         {
             "name": "chair031",
             "itemId": "item_8acm8k10gwxd4oew",
+            "scenePath": "Scene/chair031",
             "zone": "Living / Dining / Kitchen",
             "zoneId": "zone_los2rof08bacpjey",
             "zoneColor": "#f59e0b",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_8acm8k10gwxd4oew",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_8acm8k10gwxd4oew",
             "position": {
                 "x": -3.9000000953674318,
                 "y": 0.05000000074505806,
@@ -547,11 +559,12 @@
         {
             "name": "chair031",
             "itemId": "item_lx0syzr7fwyi1swk",
+            "scenePath": "Scene/chair031",
             "zone": "Living / Dining / Kitchen",
             "zoneId": "zone_los2rof08bacpjey",
             "zoneColor": "#f59e0b",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_lx0syzr7fwyi1swk",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_lx0syzr7fwyi1swk",
             "position": {
                 "x": -3.9000000953674318,
                 "y": 0.05000000074505806,
@@ -581,11 +594,12 @@
         {
             "name": "coffee_table",
             "itemId": "item_rfbk29w66vx0typq",
+            "scenePath": "Scene/coffee_table",
             "zone": "Living / Dining / Kitchen",
             "zoneId": "zone_los2rof08bacpjey",
             "zoneColor": "#f59e0b",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_rfbk29w66vx0typq",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_rfbk29w66vx0typq",
             "position": {
                 "x": -2.200000047683716,
                 "y": 0.05000000074505806,
@@ -615,11 +629,12 @@
         {
             "name": "flower_010",
             "itemId": "item_i61hkglh7sbfic0g",
+            "scenePath": "Scene/flower_010",
             "zone": "Living / Dining / Kitchen",
             "zoneId": "zone_los2rof08bacpjey",
             "zoneColor": "#f59e0b",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_i61hkglh7sbfic0g",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_i61hkglh7sbfic0g",
             "position": {
                 "x": -0.6000000238418579,
                 "y": 0.05000000074505806,
@@ -649,11 +664,12 @@
         {
             "name": "kitchen_chair_030",
             "itemId": "item_3kjrm1fote36y4te",
+            "scenePath": "Scene/kitchen_chair_030",
             "zone": "Living / Dining / Kitchen",
             "zoneId": "zone_los2rof08bacpjey",
             "zoneColor": "#f59e0b",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_3kjrm1fote36y4te",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_3kjrm1fote36y4te",
             "position": {
                 "x": -3.0,
                 "y": 0.05000000074505806,
@@ -683,11 +699,12 @@
         {
             "name": "kitchen_chair_030",
             "itemId": "item_alx39titx9ef8ydy",
+            "scenePath": "Scene/kitchen_chair_030",
             "zone": "Living / Dining / Kitchen",
             "zoneId": "zone_los2rof08bacpjey",
             "zoneColor": "#f59e0b",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_alx39titx9ef8ydy",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_alx39titx9ef8ydy",
             "position": {
                 "x": -4.0,
                 "y": 0.05000000074505806,
@@ -717,11 +734,12 @@
         {
             "name": "kitchen_chair_030",
             "itemId": "item_gqtcfevxs7d4w4s4",
+            "scenePath": "Scene/kitchen_chair_030",
             "zone": "Living / Dining / Kitchen",
             "zoneId": "zone_los2rof08bacpjey",
             "zoneColor": "#f59e0b",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_gqtcfevxs7d4w4s4",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_gqtcfevxs7d4w4s4",
             "position": {
                 "x": -5.0,
                 "y": 0.05000000074505806,
@@ -751,11 +769,12 @@
         {
             "name": "kitchen_chair_030",
             "itemId": "item_n3jwp1knkx7s5m7f",
+            "scenePath": "Scene/kitchen_chair_030",
             "zone": "Living / Dining / Kitchen",
             "zoneId": "zone_los2rof08bacpjey",
             "zoneColor": "#f59e0b",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_n3jwp1knkx7s5m7f",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_n3jwp1knkx7s5m7f",
             "position": {
                 "x": -4.0,
                 "y": 0.05000000074505806,
@@ -785,11 +804,12 @@
         {
             "name": "kitchen_chair_030",
             "itemId": "item_rpskz6mnd0awg0os",
+            "scenePath": "Scene/kitchen_chair_030",
             "zone": "Living / Dining / Kitchen",
             "zoneId": "zone_los2rof08bacpjey",
             "zoneColor": "#f59e0b",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_rpskz6mnd0awg0os",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_rpskz6mnd0awg0os",
             "position": {
                 "x": -3.0,
                 "y": 0.05000000074505806,
@@ -819,11 +839,12 @@
         {
             "name": "kitchen_chair_030",
             "itemId": "item_wq68mxamp02i48qe",
+            "scenePath": "Scene/kitchen_chair_030",
             "zone": "Living / Dining / Kitchen",
             "zoneId": "zone_los2rof08bacpjey",
             "zoneColor": "#f59e0b",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_wq68mxamp02i48qe",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_wq68mxamp02i48qe",
             "position": {
                 "x": -5.0,
                 "y": 0.05000000074505806,
@@ -853,11 +874,12 @@
         {
             "name": "kitchen_item_018",
             "itemId": "item_ukdi11ejb49yqeah",
+            "scenePath": "Scene/kitchen_item_018",
             "zone": "Living / Dining / Kitchen",
             "zoneId": "zone_los2rof08bacpjey",
             "zoneColor": "#f59e0b",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_ukdi11ejb49yqeah",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_ukdi11ejb49yqeah",
             "position": {
                 "x": -3.0,
                 "y": 0.05000000074505806,
@@ -887,11 +909,12 @@
         {
             "name": "kitchen_item_019",
             "itemId": "item_atbvvds987pjn7d3",
+            "scenePath": "Scene/kitchen_item_019",
             "zone": "Living / Dining / Kitchen",
             "zoneId": "zone_los2rof08bacpjey",
             "zoneColor": "#f59e0b",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_atbvvds987pjn7d3",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_atbvvds987pjn7d3",
             "position": {
                 "x": -0.5,
                 "y": 0.05000000074505806,
@@ -921,11 +944,12 @@
         {
             "name": "kitchen_item_030",
             "itemId": "item_e93ahkbvq0bk0w08",
+            "scenePath": "Scene/kitchen_item_030",
             "zone": "Living / Dining / Kitchen",
             "zoneId": "zone_los2rof08bacpjey",
             "zoneColor": "#f59e0b",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_e93ahkbvq0bk0w08",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_e93ahkbvq0bk0w08",
             "position": {
                 "x": -0.5,
                 "y": 0.05000000074505806,
@@ -955,11 +979,12 @@
         {
             "name": "kitchen_item_038",
             "itemId": "item_edp9tk5jrfxq2g0q",
+            "scenePath": "Scene/kitchen_item_038",
             "zone": "Living / Dining / Kitchen",
             "zoneId": "zone_los2rof08bacpjey",
             "zoneColor": "#f59e0b",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_edp9tk5jrfxq2g0q",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_edp9tk5jrfxq2g0q",
             "position": {
                 "x": -0.4000000059604645,
                 "y": 0.05000000074505806,
@@ -989,11 +1014,12 @@
         {
             "name": "kitchen_table_001",
             "itemId": "item_rnc5r8sjjwyfnb65",
+            "scenePath": "Scene/kitchen_table_001",
             "zone": "Living / Dining / Kitchen",
             "zoneId": "zone_los2rof08bacpjey",
             "zoneColor": "#f59e0b",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_rnc5r8sjjwyfnb65",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_rnc5r8sjjwyfnb65",
             "position": {
                 "x": -4.0,
                 "y": 0.05000000074505806,
@@ -1023,11 +1049,12 @@
         {
             "name": "sofa_005",
             "itemId": "item_r262jltqwzuudorw",
+            "scenePath": "Scene/sofa_005",
             "zone": "Living / Dining / Kitchen",
             "zoneId": "zone_los2rof08bacpjey",
             "zoneColor": "#f59e0b",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_r262jltqwzuudorw",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_r262jltqwzuudorw",
             "position": {
                 "x": -0.699999988079071,
                 "y": 0.05000000074505806,
@@ -1057,11 +1084,12 @@
         {
             "name": "bush_001",
             "itemId": "item_fxhy5v622q7bx9av",
+            "scenePath": "Scene/bush_001",
             "zone": "Terrace",
             "zoneId": "zone_i2ng0qmoa0e4qim4",
             "zoneColor": "#84cc16",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_fxhy5v622q7bx9av",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_fxhy5v622q7bx9av",
             "position": {
                 "x": 3.0,
                 "y": 0.05000000074505806,
@@ -1091,11 +1119,12 @@
         {
             "name": "coffee_table_001",
             "itemId": "item_40mfdo7cdnn4i2lk",
+            "scenePath": "Scene/coffee_table_001",
             "zone": "Terrace",
             "zoneId": "zone_i2ng0qmoa0e4qim4",
             "zoneColor": "#84cc16",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_40mfdo7cdnn4i2lk",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_40mfdo7cdnn4i2lk",
             "position": {
                 "x": 1.600000023841858,
                 "y": 0.05000000074505806,
@@ -1125,11 +1154,12 @@
         {
             "name": "lounge_chair_014",
             "itemId": "item_m3fik7nfwbdkpnlt",
+            "scenePath": "Scene/lounge_chair_014",
             "zone": "Terrace",
             "zoneId": "zone_i2ng0qmoa0e4qim4",
             "zoneColor": "#84cc16",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_m3fik7nfwbdkpnlt",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_m3fik7nfwbdkpnlt",
             "position": {
                 "x": 2.9000000953674318,
                 "y": 0.05000000074505806,
@@ -1159,11 +1189,12 @@
         {
             "name": "lounge_chair_014",
             "itemId": "item_nd6uf51vsdhpbxiw",
+            "scenePath": "Scene/lounge_chair_014",
             "zone": "Terrace",
             "zoneId": "zone_i2ng0qmoa0e4qim4",
             "zoneColor": "#84cc16",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_nd6uf51vsdhpbxiw",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_nd6uf51vsdhpbxiw",
             "position": {
                 "x": 2.9000000953674318,
                 "y": 0.05000000074505806,
@@ -1193,11 +1224,12 @@
         {
             "name": "palm_001",
             "itemId": "item_i90d9agrfmbrt682",
+            "scenePath": "Scene/palm_001",
             "zone": "Terrace",
             "zoneId": "zone_i2ng0qmoa0e4qim4",
             "zoneColor": "#84cc16",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_i90d9agrfmbrt682",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_i90d9agrfmbrt682",
             "position": {
                 "x": 0.699999988079071,
                 "y": 0.05000000074505806,
@@ -1227,11 +1259,12 @@
         {
             "name": "closet_016",
             "itemId": "item_ag4ytd2r929ddsr9",
+            "scenePath": "Scene/closet_016",
             "zone": "Walk-in Closet",
             "zoneId": "zone_rz4wom9192mi92gl",
             "zoneColor": "#6366f1",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_ag4ytd2r929ddsr9",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_ag4ytd2r929ddsr9",
             "position": {
                 "x": -8.300000190734864,
                 "y": 0.05000000074505806,
@@ -1261,11 +1294,12 @@
         {
             "name": "closet_016",
             "itemId": "item_vd6his6igdtf7wh4",
+            "scenePath": "Scene/closet_016",
             "zone": "Walk-in Closet",
             "zoneId": "zone_rz4wom9192mi92gl",
             "zoneColor": "#6366f1",
-            "sourceGlb": "Assets/Scenes/Imported/2.glb",
-            "hierarchyPath": "2/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_vd6his6igdtf7wh4",
+            "sourceGlb": "scene:Walkthrough/2 chatpgt",
+            "hierarchyPath": "2 chatpgt/scene-renderer/site_31kx44uorgv62bo7/building_ene3cmgpc0xxo691/level_as8ce4c91qrax7ue/item_vd6his6igdtf7wh4",
             "position": {
                 "x": -11.5,
                 "y": 0.05000000074505806,

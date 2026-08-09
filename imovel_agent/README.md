@@ -40,8 +40,14 @@ adk api_server         # or: adk web
 
 ## Configuration
 
-- `scene.py` → `LANGUAGE`: `"pt"` or `"en"`. Controls the reply language and the catalog labels.
-- `data/{env_id}.json`: scene export. Only `2.json` exists; drop in `1.json` / `3.json` to add the
-  other properties — no code change needed.
-- `data/dictionary.json`: mesh name → `{pt, en, category}`. Add an entry for every new mesh name;
-  unlisted objects fall back to the raw mesh name and log a warning at load.
+- `scene.py` → `LANGUAGE`: `"pt"` or `"en"`. Controls the reply language. Object labels always come
+  from the dictionary, which is pt-BR.
+- `data/{env_id}.json` + `data/{env_id}.txt`: one scene export and one dictionary per environment,
+  paired by filename (`1`, `2`, `3`). The `env_id` in session state picks the pair.
+- Dictionary lines are `key = label`. The key is a mesh name, or an `item_...` ID to label one
+  specific object differently from others sharing its mesh. Unlisted objects fall back to the raw
+  mesh name and log a warning at load.
+- Objects the export leaves outside every room polygon (wall-mounted props sit centimetres past the
+  wall face) are snapped to the nearest zone by bounding-box distance.
+
+Run `python test.py` to check all three environments end-to-end.

@@ -1,0 +1,15 @@
+closet_016 = armário
+shelf_051 = estante do lado da cama
+bed_015 = cama
+kitchen_item_019 = geladeira
+kitchen_item_030 = fogão
+kitchen_chair_030 = cadeira
+kitchen_table_001 = mesa média
+armchair_002 = sofa pequeno
+coffee_table_012 = mesa de café
+sofa_005 = sofa grande
+tv_wall_016 = estante de TV
+bathroom_item_022 = privada
+bathroom_item_010 = pia do banheiro
+Shower_02 = chuveiro
+item_vbl9zpy349aapowv = televisão

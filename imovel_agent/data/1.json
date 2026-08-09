@@ -1,0 +1,1085 @@
+{
+    "generatedAtUtc": "2026-08-08T19:41:12.7218127Z",
+    "coordinateSystem": "Unity: metros, Y para cima, mao esquerda",
+    "positionDescription": "position/rotation = Transform local do no item_* (igual ao Inspector)",
+    "scenePositionDescription": "scenePosition/sceneRotation = transform relativo a raiz do GLB (posicao na casa)",
+    "scenePathDescription": "scenePath = caminho sob o filho Scene do item (ex.: Scene/coffee_table)",
+    "zoneDescription": "zone = label Pascal do poligono que contem scenePosition.xz (menor area em caso de sobreposicao)",
+    "sources": [
+        "scene:Walkthrough/1 local"
+    ],
+    "zoneCount": 6,
+    "count": 26,
+    "zones": [
+        {
+            "id": "zone_nlqxmpacklis24e5",
+            "label": "Banheiro",
+            "color": "#3b82f6",
+            "area": 5.070000171661377,
+            "sourceGlb": "Assets/Scenes/Imported/1 local.glb",
+            "polygon": [
+                {
+                    "x": -5.0,
+                    "z": 3.0
+                },
+                {
+                    "x": -8.899999618530274,
+                    "z": 3.0
+                },
+                {
+                    "x": -8.899999618530274,
+                    "z": 4.300000190734863
+                },
+                {
+                    "x": -5.0,
+                    "z": 4.300000190734863
+                }
+            ]
+        },
+        {
+            "id": "zone_696czv7r5mc1tg95",
+            "label": "Despensa",
+            "color": "#3b82f6",
+            "area": 1.600000023841858,
+            "sourceGlb": "Assets/Scenes/Imported/1 local.glb",
+            "polygon": [
+                {
+                    "x": -7.300000190734863,
+                    "z": 4.5
+                },
+                {
+                    "x": -8.899999618530274,
+                    "z": 4.5
+                },
+                {
+                    "x": -8.899999618530274,
+                    "z": 5.5
+                },
+                {
+                    "x": -7.300000190734863,
+                    "z": 5.5
+                }
+            ]
+        },
+        {
+            "id": "zone_adsem4rn29xb3ycm",
+            "label": "Hall",
+            "color": "#3b82f6",
+            "area": 4.199999809265137,
+            "sourceGlb": "Assets/Scenes/Imported/1 local.glb",
+            "polygon": [
+                {
+                    "x": -3.799999952316284,
+                    "z": 0.10000000149011612
+                },
+                {
+                    "x": -4.800000190734863,
+                    "z": 0.10000000149011612
+                },
+                {
+                    "x": -4.800000190734863,
+                    "z": 4.300000190734863
+                },
+                {
+                    "x": -3.799999952316284,
+                    "z": 4.300000190734863
+                }
+            ]
+        },
+        {
+            "id": "zone_y2ey6jtfk0zj4oyl",
+            "label": "Quarto 1",
+            "color": "#3b82f6",
+            "area": 14.699999809265137,
+            "sourceGlb": "Assets/Scenes/Imported/1 local.glb",
+            "polygon": [
+                {
+                    "x": -0.10000000149011612,
+                    "z": 0.10000000149011612
+                },
+                {
+                    "x": -3.5999999046325685,
+                    "z": 0.10000000149011612
+                },
+                {
+                    "x": -3.5999999046325685,
+                    "z": 4.300000190734863
+                },
+                {
+                    "x": -0.10000000149011612,
+                    "z": 4.300000190734863
+                }
+            ]
+        },
+        {
+            "id": "zone_ch5ccefewzbufqxk",
+            "label": "Quarto 2",
+            "color": "#3b82f6",
+            "area": 10.529999732971192,
+            "sourceGlb": "Assets/Scenes/Imported/1 local.glb",
+            "polygon": [
+                {
+                    "x": -5.0,
+                    "z": 0.10000000149011612
+                },
+                {
+                    "x": -8.899999618530274,
+                    "z": 0.10000000149011612
+                },
+                {
+                    "x": -8.899999618530274,
+                    "z": 2.799999952316284
+                },
+                {
+                    "x": -5.0,
+                    "z": 2.799999952316284
+                }
+            ]
+        },
+        {
+            "id": "zone_hcv7f2bvv2zzichj",
+            "label": "Sala e Cozinha",
+            "color": "#3b82f6",
+            "area": 34.79999923706055,
+            "sourceGlb": "Assets/Scenes/Imported/1 local.glb",
+            "polygon": [
+                {
+                    "x": -0.10000000149011612,
+                    "z": 4.5
+                },
+                {
+                    "x": -7.099999904632568,
+                    "z": 4.5
+                },
+                {
+                    "x": -7.099999904632568,
+                    "z": 5.699999809265137
+                },
+                {
+                    "x": -8.899999618530274,
+                    "z": 5.699999809265137
+                },
+                {
+                    "x": -8.899999618530274,
+                    "z": 8.699999809265137
+                },
+                {
+                    "x": -0.10000000149011612,
+                    "z": 8.699999809265137
+                }
+            ]
+        }
+    ],
+    "objects": [
+        {
+            "name": "group1257628551",
+            "itemId": "item_vbl9zpy349aapowv",
+            "scenePath": "",
+            "zone": "",
+            "zoneId": "",
+            "zoneColor": "",
+            "sourceGlb": "scene:Walkthrough/1 local",
+            "hierarchyPath": "1 local/scene-renderer/site_7un1tp3y316r2ck7/building_ljn7rcooai1h1ehn/level_u20c5w0omd7o6tqm/wall_94fygcu8w3q877i7/item_vbl9zpy349aapowv",
+            "position": {
+                "x": -6.699999809265137,
+                "y": 1.4500000476837159,
+                "z": -0.07500000298023224
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -2.299999952316284,
+                "y": 1.5499999523162842,
+                "z": 8.875
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "bathroom_item_010",
+            "itemId": "item_i5np4pws5i3du6he",
+            "scenePath": "",
+            "zone": "Banheiro",
+            "zoneId": "zone_nlqxmpacklis24e5",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/1 local",
+            "hierarchyPath": "1 local/scene-renderer/site_7un1tp3y316r2ck7/building_ljn7rcooai1h1ehn/level_u20c5w0omd7o6tqm/item_i5np4pws5i3du6he",
+            "position": {
+                "x": -6.400000095367432,
+                "y": 0.10000000149011612,
+                "z": 3.9000000953674318
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -6.400000095367432,
+                "y": 0.10000000149011612,
+                "z": 3.9000000953674318
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "bathroom_item_022",
+            "itemId": "item_ytglqb8dfhkin70e",
+            "scenePath": "",
+            "zone": "Banheiro",
+            "zoneId": "zone_nlqxmpacklis24e5",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/1 local",
+            "hierarchyPath": "1 local/scene-renderer/site_7un1tp3y316r2ck7/building_ljn7rcooai1h1ehn/level_u20c5w0omd7o6tqm/item_ytglqb8dfhkin70e",
+            "position": {
+                "x": -7.5,
+                "y": 0.10000000149011612,
+                "z": 3.200000047683716
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -7.5,
+                "y": 0.10000000149011612,
+                "z": 3.200000047683716
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "Shower_02",
+            "itemId": "item_vfzs7jkwxyxfqo98",
+            "scenePath": "",
+            "zone": "Banheiro",
+            "zoneId": "zone_nlqxmpacklis24e5",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/1 local",
+            "hierarchyPath": "1 local/scene-renderer/site_7un1tp3y316r2ck7/building_ljn7rcooai1h1ehn/level_u20c5w0omd7o6tqm/item_vfzs7jkwxyxfqo98",
+            "position": {
+                "x": -8.399999618530274,
+                "y": 0.10000000149011612,
+                "z": 3.700000047683716
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -8.399999618530274,
+                "y": 0.10000000149011612,
+                "z": 3.700000047683716
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "bed_015",
+            "itemId": "item_kraq1hwwka7plakd",
+            "scenePath": "",
+            "zone": "Quarto 1",
+            "zoneId": "zone_y2ey6jtfk0zj4oyl",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/1 local",
+            "hierarchyPath": "1 local/scene-renderer/site_7un1tp3y316r2ck7/building_ljn7rcooai1h1ehn/level_u20c5w0omd7o6tqm/item_kraq1hwwka7plakd",
+            "position": {
+                "x": -1.350000023841858,
+                "y": 0.10000000149011612,
+                "z": 2.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -1.350000023841858,
+                "y": 0.10000000149011612,
+                "z": 2.0
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "closet_016",
+            "itemId": "item_qvd3f2ij2vtmin2j",
+            "scenePath": "",
+            "zone": "Quarto 1",
+            "zoneId": "zone_y2ey6jtfk0zj4oyl",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/1 local",
+            "hierarchyPath": "1 local/scene-renderer/site_7un1tp3y316r2ck7/building_ljn7rcooai1h1ehn/level_u20c5w0omd7o6tqm/item_qvd3f2ij2vtmin2j",
+            "position": {
+                "x": -2.0999999046325685,
+                "y": 0.10000000149011612,
+                "z": 3.8499999046325685
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -2.0999999046325685,
+                "y": 0.10000000149011612,
+                "z": 3.8499999046325685
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "shelf_051",
+            "itemId": "item_eenhhu8cqilvxa5s",
+            "scenePath": "",
+            "zone": "Quarto 1",
+            "zoneId": "zone_y2ey6jtfk0zj4oyl",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/1 local",
+            "hierarchyPath": "1 local/scene-renderer/site_7un1tp3y316r2ck7/building_ljn7rcooai1h1ehn/level_u20c5w0omd7o6tqm/item_eenhhu8cqilvxa5s",
+            "position": {
+                "x": -0.3499999940395355,
+                "y": 0.10000000149011612,
+                "z": 3.3499999046325685
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -0.3499999940395355,
+                "y": 0.10000000149011612,
+                "z": 3.3499999046325685
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "shelf_051",
+            "itemId": "item_ukyj2zifsc06pnk4",
+            "scenePath": "",
+            "zone": "Quarto 1",
+            "zoneId": "zone_y2ey6jtfk0zj4oyl",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/1 local",
+            "hierarchyPath": "1 local/scene-renderer/site_7un1tp3y316r2ck7/building_ljn7rcooai1h1ehn/level_u20c5w0omd7o6tqm/item_ukyj2zifsc06pnk4",
+            "position": {
+                "x": -0.3499999940395355,
+                "y": 0.10000000149011612,
+                "z": 0.6000000238418579
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -0.3499999940395355,
+                "y": 0.10000000149011612,
+                "z": 0.6000000238418579
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "bed_015",
+            "itemId": "item_uhve1gzm87o7d3r8",
+            "scenePath": "",
+            "zone": "Quarto 2",
+            "zoneId": "zone_ch5ccefewzbufqxk",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/1 local",
+            "hierarchyPath": "1 local/scene-renderer/site_7un1tp3y316r2ck7/building_ljn7rcooai1h1ehn/level_u20c5w0omd7o6tqm/item_uhve1gzm87o7d3r8",
+            "position": {
+                "x": -7.599999904632568,
+                "y": 0.10000000149011612,
+                "z": 1.5499999523162842
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -7.599999904632568,
+                "y": 0.10000000149011612,
+                "z": 1.5499999523162842
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "closet_016",
+            "itemId": "item_8so8nr9d9hglfilw",
+            "scenePath": "",
+            "zone": "Quarto 2",
+            "zoneId": "zone_ch5ccefewzbufqxk",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/1 local",
+            "hierarchyPath": "1 local/scene-renderer/site_7un1tp3y316r2ck7/building_ljn7rcooai1h1ehn/level_u20c5w0omd7o6tqm/item_8so8nr9d9hglfilw",
+            "position": {
+                "x": -5.449999809265137,
+                "y": 0.10000000149011612,
+                "z": 1.899999976158142
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -5.449999809265137,
+                "y": 0.10000000149011612,
+                "z": 1.899999976158142
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "shelf_051",
+            "itemId": "item_be7abvfzms6erh2p",
+            "scenePath": "",
+            "zone": "Quarto 2",
+            "zoneId": "zone_ch5ccefewzbufqxk",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/1 local",
+            "hierarchyPath": "1 local/scene-renderer/site_7un1tp3y316r2ck7/building_ljn7rcooai1h1ehn/level_u20c5w0omd7o6tqm/item_be7abvfzms6erh2p",
+            "position": {
+                "x": -8.600000381469727,
+                "y": 0.10000000149011612,
+                "z": 2.5999999046325685
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -8.600000381469727,
+                "y": 0.10000000149011612,
+                "z": 2.5999999046325685
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "shelf_051",
+            "itemId": "item_rfp8hfkmy6zvenxp",
+            "scenePath": "",
+            "zone": "Quarto 2",
+            "zoneId": "zone_ch5ccefewzbufqxk",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/1 local",
+            "hierarchyPath": "1 local/scene-renderer/site_7un1tp3y316r2ck7/building_ljn7rcooai1h1ehn/level_u20c5w0omd7o6tqm/item_rfp8hfkmy6zvenxp",
+            "position": {
+                "x": -8.600000381469727,
+                "y": 0.10000000149011612,
+                "z": 0.4000000059604645
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -8.600000381469727,
+                "y": 0.10000000149011612,
+                "z": 0.4000000059604645
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "armchair_002",
+            "itemId": "item_rwhy5ot1thibclfs",
+            "scenePath": "",
+            "zone": "Sala e Cozinha",
+            "zoneId": "zone_hcv7f2bvv2zzichj",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/1 local",
+            "hierarchyPath": "1 local/scene-renderer/site_7un1tp3y316r2ck7/building_ljn7rcooai1h1ehn/level_u20c5w0omd7o6tqm/item_rwhy5ot1thibclfs",
+            "position": {
+                "x": -2.8499999046325685,
+                "y": 0.10000000149011612,
+                "z": 5.25
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 25.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -2.8499999046325685,
+                "y": 0.10000000149011612,
+                "z": 5.25
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 25.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "bathroom_item_010",
+            "itemId": "item_m920hp7g7diobwum",
+            "scenePath": "",
+            "zone": "Sala e Cozinha",
+            "zoneId": "zone_hcv7f2bvv2zzichj",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/1 local",
+            "hierarchyPath": "1 local/scene-renderer/site_7un1tp3y316r2ck7/building_ljn7rcooai1h1ehn/level_u20c5w0omd7o6tqm/item_m920hp7g7diobwum",
+            "position": {
+                "x": -7.5,
+                "y": 0.10000000149011612,
+                "z": 8.25
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -7.5,
+                "y": 0.10000000149011612,
+                "z": 8.25
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "coffee_table_012",
+            "itemId": "item_6azxtykn66hmrlhw",
+            "scenePath": "",
+            "zone": "Sala e Cozinha",
+            "zoneId": "zone_hcv7f2bvv2zzichj",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/1 local",
+            "hierarchyPath": "1 local/scene-renderer/site_7un1tp3y316r2ck7/building_ljn7rcooai1h1ehn/level_u20c5w0omd7o6tqm/item_6azxtykn66hmrlhw",
+            "position": {
+                "x": -2.5999999046325685,
+                "y": 0.10000000149011612,
+                "z": 6.699999809265137
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -2.5999999046325685,
+                "y": 0.10000000149011612,
+                "z": 6.699999809265137
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_chair_030",
+            "itemId": "item_6z994izzfyucz46b",
+            "scenePath": "",
+            "zone": "Sala e Cozinha",
+            "zoneId": "zone_hcv7f2bvv2zzichj",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/1 local",
+            "hierarchyPath": "1 local/scene-renderer/site_7un1tp3y316r2ck7/building_ljn7rcooai1h1ehn/level_u20c5w0omd7o6tqm/item_6z994izzfyucz46b",
+            "position": {
+                "x": -4.449999809265137,
+                "y": 0.10000000149011612,
+                "z": 6.599999904632568
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -4.449999809265137,
+                "y": 0.10000000149011612,
+                "z": 6.599999904632568
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_chair_030",
+            "itemId": "item_85ji4ajvtf2ovpzb",
+            "scenePath": "",
+            "zone": "Sala e Cozinha",
+            "zoneId": "zone_hcv7f2bvv2zzichj",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/1 local",
+            "hierarchyPath": "1 local/scene-renderer/site_7un1tp3y316r2ck7/building_ljn7rcooai1h1ehn/level_u20c5w0omd7o6tqm/item_85ji4ajvtf2ovpzb",
+            "position": {
+                "x": -4.449999809265137,
+                "y": 0.10000000149011612,
+                "z": 7.349999904632568
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -4.449999809265137,
+                "y": 0.10000000149011612,
+                "z": 7.349999904632568
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_chair_030",
+            "itemId": "item_htfldt0yakd0wtmh",
+            "scenePath": "",
+            "zone": "Sala e Cozinha",
+            "zoneId": "zone_hcv7f2bvv2zzichj",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/1 local",
+            "hierarchyPath": "1 local/scene-renderer/site_7un1tp3y316r2ck7/building_ljn7rcooai1h1ehn/level_u20c5w0omd7o6tqm/item_htfldt0yakd0wtmh",
+            "position": {
+                "x": -6.150000095367432,
+                "y": 0.10000000149011612,
+                "z": 6.599999904632568
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -6.150000095367432,
+                "y": 0.10000000149011612,
+                "z": 6.599999904632568
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_chair_030",
+            "itemId": "item_nabcbgxo5q8cwh1u",
+            "scenePath": "",
+            "zone": "Sala e Cozinha",
+            "zoneId": "zone_hcv7f2bvv2zzichj",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/1 local",
+            "hierarchyPath": "1 local/scene-renderer/site_7un1tp3y316r2ck7/building_ljn7rcooai1h1ehn/level_u20c5w0omd7o6tqm/item_nabcbgxo5q8cwh1u",
+            "position": {
+                "x": -4.449999809265137,
+                "y": 0.10000000149011612,
+                "z": 5.849999904632568
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -4.449999809265137,
+                "y": 0.10000000149011612,
+                "z": 5.849999904632568
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_chair_030",
+            "itemId": "item_qy0mwc4y8h3dr6v4",
+            "scenePath": "",
+            "zone": "Sala e Cozinha",
+            "zoneId": "zone_hcv7f2bvv2zzichj",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/1 local",
+            "hierarchyPath": "1 local/scene-renderer/site_7un1tp3y316r2ck7/building_ljn7rcooai1h1ehn/level_u20c5w0omd7o6tqm/item_qy0mwc4y8h3dr6v4",
+            "position": {
+                "x": -6.150000095367432,
+                "y": 0.10000000149011612,
+                "z": 5.849999904632568
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -6.150000095367432,
+                "y": 0.10000000149011612,
+                "z": 5.849999904632568
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_chair_030",
+            "itemId": "item_vdd9xct1eszxm49t",
+            "scenePath": "",
+            "zone": "Sala e Cozinha",
+            "zoneId": "zone_hcv7f2bvv2zzichj",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/1 local",
+            "hierarchyPath": "1 local/scene-renderer/site_7un1tp3y316r2ck7/building_ljn7rcooai1h1ehn/level_u20c5w0omd7o6tqm/item_vdd9xct1eszxm49t",
+            "position": {
+                "x": -6.150000095367432,
+                "y": 0.10000000149011612,
+                "z": 7.349999904632568
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -6.150000095367432,
+                "y": 0.10000000149011612,
+                "z": 7.349999904632568
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_item_019",
+            "itemId": "item_65uncgmand9199zt",
+            "scenePath": "",
+            "zone": "Sala e Cozinha",
+            "zoneId": "zone_hcv7f2bvv2zzichj",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/1 local",
+            "hierarchyPath": "1 local/scene-renderer/site_7un1tp3y316r2ck7/building_ljn7rcooai1h1ehn/level_u20c5w0omd7o6tqm/item_65uncgmand9199zt",
+            "position": {
+                "x": -8.399999618530274,
+                "y": 0.10000000149011612,
+                "z": 6.099999904632568
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -8.399999618530274,
+                "y": 0.10000000149011612,
+                "z": 6.099999904632568
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_item_030",
+            "itemId": "item_pqks2rd5uwaskz39",
+            "scenePath": "",
+            "zone": "Sala e Cozinha",
+            "zoneId": "zone_hcv7f2bvv2zzichj",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/1 local",
+            "hierarchyPath": "1 local/scene-renderer/site_7un1tp3y316r2ck7/building_ljn7rcooai1h1ehn/level_u20c5w0omd7o6tqm/item_pqks2rd5uwaskz39",
+            "position": {
+                "x": -8.399999618530274,
+                "y": 0.10000000149011612,
+                "z": 7.099999904632568
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -8.399999618530274,
+                "y": 0.10000000149011612,
+                "z": 7.099999904632568
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_table_001",
+            "itemId": "item_boy92dbj5ugfzgdy",
+            "scenePath": "",
+            "zone": "Sala e Cozinha",
+            "zoneId": "zone_hcv7f2bvv2zzichj",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/1 local",
+            "hierarchyPath": "1 local/scene-renderer/site_7un1tp3y316r2ck7/building_ljn7rcooai1h1ehn/level_u20c5w0omd7o6tqm/item_boy92dbj5ugfzgdy",
+            "position": {
+                "x": -5.300000190734863,
+                "y": 0.10000000149011612,
+                "z": 6.599999904632568
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -5.300000190734863,
+                "y": 0.10000000149011612,
+                "z": 6.599999904632568
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "sofa_005",
+            "itemId": "item_w0re6udjz95awvqf",
+            "scenePath": "",
+            "zone": "Sala e Cozinha",
+            "zoneId": "zone_hcv7f2bvv2zzichj",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/1 local",
+            "hierarchyPath": "1 local/scene-renderer/site_7un1tp3y316r2ck7/building_ljn7rcooai1h1ehn/level_u20c5w0omd7o6tqm/item_w0re6udjz95awvqf",
+            "position": {
+                "x": -0.949999988079071,
+                "y": 0.10000000149011612,
+                "z": 6.599999904632568
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -0.949999988079071,
+                "y": 0.10000000149011612,
+                "z": 6.599999904632568
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "tv_wall_016",
+            "itemId": "item_kkzogum69u9f0iz4",
+            "scenePath": "",
+            "zone": "Sala e Cozinha",
+            "zoneId": "zone_hcv7f2bvv2zzichj",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/1 local",
+            "hierarchyPath": "1 local/scene-renderer/site_7un1tp3y316r2ck7/building_ljn7rcooai1h1ehn/level_u20c5w0omd7o6tqm/item_kkzogum69u9f0iz4",
+            "position": {
+                "x": -2.299999952316284,
+                "y": 0.10000000149011612,
+                "z": 8.449999809265137
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -2.299999952316284,
+                "y": 0.10000000149011612,
+                "z": 8.449999809265137
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            }
+        }
+    ]
+}

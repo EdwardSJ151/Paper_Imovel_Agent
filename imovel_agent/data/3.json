@@ -1,0 +1,2123 @@
+{
+    "generatedAtUtc": "2026-08-08T19:44:51.7151217Z",
+    "coordinateSystem": "Unity: metros, Y para cima, mao esquerda",
+    "positionDescription": "position/rotation = Transform local do no item_* (igual ao Inspector)",
+    "scenePositionDescription": "scenePosition/sceneRotation = transform relativo a raiz do GLB (posicao na casa)",
+    "scenePathDescription": "scenePath = caminho sob o filho Scene do item (ex.: Scene/coffee_table)",
+    "zoneDescription": "zone = label Pascal do poligono que contem scenePosition.xz (menor area em caso de sobreposicao)",
+    "sources": [
+        "scene:Walkthrough/3 Fabble 5 local"
+    ],
+    "zoneCount": 15,
+    "count": 49,
+    "zones": [
+        {
+            "id": "zone_rk3fyxfbcuj04p12",
+            "label": "Bathroom",
+            "color": "#3b82f6",
+            "area": 5.610000133514404,
+            "sourceGlb": "Assets/Scenes/Imported/3 Fabble 5 local.glb",
+            "polygon": [
+                {
+                    "x": -5.599999904632568,
+                    "z": 2.9000000953674318
+                },
+                {
+                    "x": -7.300000190734863,
+                    "z": 2.9000000953674318
+                },
+                {
+                    "x": -7.300000190734863,
+                    "z": 6.199999809265137
+                },
+                {
+                    "x": -5.599999904632568,
+                    "z": 6.199999809265137
+                }
+            ]
+        },
+        {
+            "id": "zone_85u6bihpa5mzaeuk",
+            "label": "Dining Room",
+            "color": "#3b82f6",
+            "area": 18.5,
+            "sourceGlb": "Assets/Scenes/Imported/3 Fabble 5 local.glb",
+            "polygon": [
+                {
+                    "x": -8.0,
+                    "z": 10.5
+                },
+                {
+                    "x": -13.0,
+                    "z": 10.5
+                },
+                {
+                    "x": -13.0,
+                    "z": 14.199999809265137
+                },
+                {
+                    "x": -8.0,
+                    "z": 14.199999809265137
+                }
+            ]
+        },
+        {
+            "id": "zone_ckpe3vrc6o03s0ph",
+            "label": "Foyer",
+            "color": "#3b82f6",
+            "area": 8.989999771118164,
+            "sourceGlb": "Assets/Scenes/Imported/3 Fabble 5 local.glb",
+            "polygon": [
+                {
+                    "x": -5.599999904632568,
+                    "z": 0.0
+                },
+                {
+                    "x": -8.699999809265137,
+                    "z": 0.0
+                },
+                {
+                    "x": -8.699999809265137,
+                    "z": 2.9000000953674318
+                },
+                {
+                    "x": -5.599999904632568,
+                    "z": 2.9000000953674318
+                }
+            ]
+        },
+        {
+            "id": "zone_jjj8tfqfnxvx6kq7",
+            "label": "Garage",
+            "color": "#3b82f6",
+            "area": 24.3799991607666,
+            "sourceGlb": "Assets/Scenes/Imported/3 Fabble 5 local.glb",
+            "polygon": [
+                {
+                    "x": -8.699999809265137,
+                    "z": 0.0
+                },
+                {
+                    "x": -14.0,
+                    "z": 0.0
+                },
+                {
+                    "x": -14.0,
+                    "z": 4.599999904632568
+                },
+                {
+                    "x": -8.699999809265137,
+                    "z": 4.599999904632568
+                }
+            ]
+        },
+        {
+            "id": "zone_utoo6pytiz28ezqy",
+            "label": "Hall",
+            "color": "#3b82f6",
+            "area": 3.4100000858306886,
+            "sourceGlb": "Assets/Scenes/Imported/3 Fabble 5 local.glb",
+            "polygon": [
+                {
+                    "x": -4.199999809265137,
+                    "z": 6.199999809265137
+                },
+                {
+                    "x": -7.300000190734863,
+                    "z": 6.199999809265137
+                },
+                {
+                    "x": -7.300000190734863,
+                    "z": 7.300000190734863
+                },
+                {
+                    "x": -4.199999809265137,
+                    "z": 7.300000190734863
+                }
+            ]
+        },
+        {
+            "id": "zone_7e5s98p6ldu81xnn",
+            "label": "Home Office",
+            "color": "#3b82f6",
+            "area": 15.210000038146973,
+            "sourceGlb": "Assets/Scenes/Imported/3 Fabble 5 local.glb",
+            "polygon": [
+                {
+                    "x": -1.7000000476837159,
+                    "z": 0.0
+                },
+                {
+                    "x": -5.599999904632568,
+                    "z": 0.0
+                },
+                {
+                    "x": -5.599999904632568,
+                    "z": 3.9000000953674318
+                },
+                {
+                    "x": -1.7000000476837159,
+                    "z": 3.9000000953674318
+                }
+            ]
+        },
+        {
+            "id": "zone_66vw3ub2lkqn3nx1",
+            "label": "Kitchen",
+            "color": "#3b82f6",
+            "area": 20.43000030517578,
+            "sourceGlb": "Assets/Scenes/Imported/3 Fabble 5 local.glb",
+            "polygon": [
+                {
+                    "x": -7.300000190734863,
+                    "z": 6.599999904632568
+                },
+                {
+                    "x": -8.699999809265137,
+                    "z": 6.599999904632568
+                },
+                {
+                    "x": -8.699999809265137,
+                    "z": 7.599999904632568
+                },
+                {
+                    "x": -10.5,
+                    "z": 7.599999904632568
+                },
+                {
+                    "x": -10.5,
+                    "z": 6.599999904632568
+                },
+                {
+                    "x": -13.0,
+                    "z": 6.599999904632568
+                },
+                {
+                    "x": -13.0,
+                    "z": 10.5
+                },
+                {
+                    "x": -7.300000190734863,
+                    "z": 10.5
+                }
+            ]
+        },
+        {
+            "id": "zone_w41wz41e8v7j9b56",
+            "label": "Linen",
+            "color": "#3b82f6",
+            "area": 4.369999885559082,
+            "sourceGlb": "Assets/Scenes/Imported/3 Fabble 5 local.glb",
+            "polygon": [
+                {
+                    "x": -3.700000047683716,
+                    "z": 3.9000000953674318
+                },
+                {
+                    "x": -5.599999904632568,
+                    "z": 3.9000000953674318
+                },
+                {
+                    "x": -5.599999904632568,
+                    "z": 6.199999809265137
+                },
+                {
+                    "x": -3.700000047683716,
+                    "z": 6.199999809265137
+                }
+            ]
+        },
+        {
+            "id": "zone_i2zzk2dicrqpexyq",
+            "label": "Living Room",
+            "color": "#3b82f6",
+            "area": 16.34000015258789,
+            "sourceGlb": "Assets/Scenes/Imported/3 Fabble 5 local.glb",
+            "polygon": [
+                {
+                    "x": -3.700000047683716,
+                    "z": 10.399999618530274
+                },
+                {
+                    "x": -8.0,
+                    "z": 10.399999618530274
+                },
+                {
+                    "x": -8.0,
+                    "z": 14.199999809265137
+                },
+                {
+                    "x": -3.700000047683716,
+                    "z": 14.199999809265137
+                }
+            ]
+        },
+        {
+            "id": "zone_9ghcqe1kgtcdianx",
+            "label": "Mudroom",
+            "color": "#3b82f6",
+            "area": 10.600000381469727,
+            "sourceGlb": "Assets/Scenes/Imported/3 Fabble 5 local.glb",
+            "polygon": [
+                {
+                    "x": -8.699999809265137,
+                    "z": 4.599999904632568
+                },
+                {
+                    "x": -14.0,
+                    "z": 4.599999904632568
+                },
+                {
+                    "x": -14.0,
+                    "z": 6.599999904632568
+                },
+                {
+                    "x": -8.699999809265137,
+                    "z": 6.599999904632568
+                }
+            ]
+        },
+        {
+            "id": "zone_xukxkn3j6guz6t9p",
+            "label": "Pantry",
+            "color": "#3b82f6",
+            "area": 1.7999999523162842,
+            "sourceGlb": "Assets/Scenes/Imported/3 Fabble 5 local.glb",
+            "polygon": [
+                {
+                    "x": -8.699999809265137,
+                    "z": 7.599999904632568
+                },
+                {
+                    "x": -8.699999809265137,
+                    "z": 6.599999904632568
+                },
+                {
+                    "x": -10.5,
+                    "z": 6.599999904632568
+                },
+                {
+                    "x": -10.5,
+                    "z": 7.599999904632568
+                }
+            ]
+        },
+        {
+            "id": "zone_0kv9v31gen1p35g6",
+            "label": "Patio",
+            "color": "#3b82f6",
+            "area": 13.300000190734864,
+            "sourceGlb": "Assets/Scenes/Imported/3 Fabble 5 local.glb",
+            "polygon": [
+                {
+                    "x": -3.700000047683716,
+                    "z": 10.399999618530274
+                },
+                {
+                    "x": -3.700000047683716,
+                    "z": 14.199999809265137
+                },
+                {
+                    "x": -0.20000000298023225,
+                    "z": 14.199999809265137
+                },
+                {
+                    "x": -0.20000000298023225,
+                    "z": 10.399999618530274
+                }
+            ]
+        },
+        {
+            "id": "zone_0hwo1i2x0m7cqhgr",
+            "label": "Primary Bathroom",
+            "color": "#3b82f6",
+            "area": 8.510000228881836,
+            "sourceGlb": "Assets/Scenes/Imported/3 Fabble 5 local.glb",
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "z": 3.9000000953674318
+                },
+                {
+                    "x": -3.700000047683716,
+                    "z": 3.9000000953674318
+                },
+                {
+                    "x": -3.700000047683716,
+                    "z": 6.199999809265137
+                },
+                {
+                    "x": 0.0,
+                    "z": 6.199999809265137
+                }
+            ]
+        },
+        {
+            "id": "zone_rsplyk8ygej3yw4v",
+            "label": "Primary Bedroom",
+            "color": "#3b82f6",
+            "area": 17.639999389648439,
+            "sourceGlb": "Assets/Scenes/Imported/3 Fabble 5 local.glb",
+            "polygon": [
+                {
+                    "x": 0.0,
+                    "z": 6.199999809265137
+                },
+                {
+                    "x": -4.199999809265137,
+                    "z": 6.199999809265137
+                },
+                {
+                    "x": -4.199999809265137,
+                    "z": 10.399999618530274
+                },
+                {
+                    "x": 0.0,
+                    "z": 10.399999618530274
+                }
+            ]
+        },
+        {
+            "id": "zone_ndxftld626zvryhw",
+            "label": "Walk-in Closet",
+            "color": "#3b82f6",
+            "area": 7.75,
+            "sourceGlb": "Assets/Scenes/Imported/3 Fabble 5 local.glb",
+            "polygon": [
+                {
+                    "x": -4.199999809265137,
+                    "z": 9.800000190734864
+                },
+                {
+                    "x": -4.199999809265137,
+                    "z": 7.300000190734863
+                },
+                {
+                    "x": -7.300000190734863,
+                    "z": 7.300000190734863
+                },
+                {
+                    "x": -7.300000190734863,
+                    "z": 9.800000190734864
+                }
+            ]
+        }
+    ],
+    "objects": [
+        {
+            "name": "kitchen_item_006",
+            "itemId": "item_wfdh7hnmi4dnj7z7",
+            "scenePath": "",
+            "zone": "",
+            "zoneId": "",
+            "zoneColor": "",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/wall_usmj77fd1o63rw00/item_wfdh7hnmi4dnj7z7",
+            "position": {
+                "x": -1.7999999523162842,
+                "y": 1.75,
+                "z": -0.07500000298023224
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -13.074999809265137,
+                "y": 1.850000023841858,
+                "z": 8.399999618530274
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "tv_wall_016",
+            "itemId": "item_5y4gzuwisx98p0cg",
+            "scenePath": "",
+            "zone": "",
+            "zoneId": "",
+            "zoneColor": "",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_5y4gzuwisx98p0cg",
+            "position": {
+                "x": -5.550000190734863,
+                "y": 0.10000000149011612,
+                "z": 10.0600004196167
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -5.550000190734863,
+                "y": 0.10000000149011612,
+                "z": 10.0600004196167
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "bathroom_item_022",
+            "itemId": "item_8yw4386lr06w5f4j",
+            "scenePath": "",
+            "zone": "Bathroom",
+            "zoneId": "zone_rk3fyxfbcuj04p12",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_8yw4386lr06w5f4j",
+            "position": {
+                "x": -5.949999809265137,
+                "y": 0.10000000149011612,
+                "z": 5.699999809265137
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -5.949999809265137,
+                "y": 0.10000000149011612,
+                "z": 5.699999809265137
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "bathroom_item_023",
+            "itemId": "item_nbb81abr0seixvlk",
+            "scenePath": "",
+            "zone": "Bathroom",
+            "zoneId": "zone_rk3fyxfbcuj04p12",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_nbb81abr0seixvlk",
+            "position": {
+                "x": -6.679999828338623,
+                "y": 0.10000000149011612,
+                "z": 4.130000114440918
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -6.679999828338623,
+                "y": 0.10000000149011612,
+                "z": 4.130000114440918
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_chair_030",
+            "itemId": "item_a6a2up6zgw8xxtp4",
+            "scenePath": "",
+            "zone": "Dining Room",
+            "zoneId": "zone_85u6bihpa5mzaeuk",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_a6a2up6zgw8xxtp4",
+            "position": {
+                "x": -8.899999618530274,
+                "y": 0.10000000149011612,
+                "z": 12.300000190734864
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -8.899999618530274,
+                "y": 0.10000000149011612,
+                "z": 12.300000190734864
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_chair_030",
+            "itemId": "item_blxtz2e58rrvofim",
+            "scenePath": "",
+            "zone": "Dining Room",
+            "zoneId": "zone_85u6bihpa5mzaeuk",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_blxtz2e58rrvofim",
+            "position": {
+                "x": -9.699999809265137,
+                "y": 0.10000000149011612,
+                "z": 11.399999618530274
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -9.699999809265137,
+                "y": 0.10000000149011612,
+                "z": 11.399999618530274
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_chair_030",
+            "itemId": "item_c8uaq5rwnafohsqg",
+            "scenePath": "",
+            "zone": "Dining Room",
+            "zoneId": "zone_85u6bihpa5mzaeuk",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_c8uaq5rwnafohsqg",
+            "position": {
+                "x": -9.699999809265137,
+                "y": 0.10000000149011612,
+                "z": 13.199999809265137
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -9.699999809265137,
+                "y": 0.10000000149011612,
+                "z": 13.199999809265137
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_chair_030",
+            "itemId": "item_e5dvgxrtoa0cmeea",
+            "scenePath": "",
+            "zone": "Dining Room",
+            "zoneId": "zone_85u6bihpa5mzaeuk",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_e5dvgxrtoa0cmeea",
+            "position": {
+                "x": -11.800000190734864,
+                "y": 0.10000000149011612,
+                "z": 12.300000190734864
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -11.800000190734864,
+                "y": 0.10000000149011612,
+                "z": 12.300000190734864
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_chair_030",
+            "itemId": "item_mtscg8aly07l23bt",
+            "scenePath": "",
+            "zone": "Dining Room",
+            "zoneId": "zone_85u6bihpa5mzaeuk",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_mtscg8aly07l23bt",
+            "position": {
+                "x": -11.0,
+                "y": 0.10000000149011612,
+                "z": 13.199999809265137
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -11.0,
+                "y": 0.10000000149011612,
+                "z": 13.199999809265137
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_chair_030",
+            "itemId": "item_pxvbwos52dkfz6th",
+            "scenePath": "",
+            "zone": "Dining Room",
+            "zoneId": "zone_85u6bihpa5mzaeuk",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_pxvbwos52dkfz6th",
+            "position": {
+                "x": -11.0,
+                "y": 0.10000000149011612,
+                "z": 11.399999618530274
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -11.0,
+                "y": 0.10000000149011612,
+                "z": 11.399999618530274
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_table_001",
+            "itemId": "item_hmx7b7zoivyqm0vk",
+            "scenePath": "",
+            "zone": "Dining Room",
+            "zoneId": "zone_85u6bihpa5mzaeuk",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_hmx7b7zoivyqm0vk",
+            "position": {
+                "x": -10.350000381469727,
+                "y": 0.10000000149011612,
+                "z": 12.300000190734864
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -10.350000381469727,
+                "y": 0.10000000149011612,
+                "z": 12.300000190734864
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "closet_016",
+            "itemId": "item_uasfs4ghfbxquzfc",
+            "scenePath": "",
+            "zone": "Foyer",
+            "zoneId": "zone_ckpe3vrc6o03s0ph",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_uasfs4ghfbxquzfc",
+            "position": {
+                "x": -8.34000015258789,
+                "y": 0.10000000149011612,
+                "z": 1.899999976158142
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -8.34000015258789,
+                "y": 0.10000000149011612,
+                "z": 1.899999976158142
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "prop_013",
+            "itemId": "item_vryo8amgaqw73ry4",
+            "scenePath": "",
+            "zone": "Foyer",
+            "zoneId": "zone_ckpe3vrc6o03s0ph",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_vryo8amgaqw73ry4",
+            "position": {
+                "x": -5.849999904632568,
+                "y": 0.10000000149011612,
+                "z": 0.4000000059604645
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -5.849999904632568,
+                "y": 0.10000000149011612,
+                "z": 0.4000000059604645
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "Retopo_Mesh_0004",
+            "itemId": "item_o8djh7caudl6s3za",
+            "scenePath": "",
+            "zone": "Garage",
+            "zoneId": "zone_jjj8tfqfnxvx6kq7",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_o8djh7caudl6s3za",
+            "position": {
+                "x": -11.300000190734864,
+                "y": 0.10000000149011612,
+                "z": 2.5
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -11.300000190734864,
+                "y": 0.10000000149011612,
+                "z": 2.5
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "flower_010",
+            "itemId": "item_ja29nnyrtomc0btv",
+            "scenePath": "",
+            "zone": "Home Office",
+            "zoneId": "zone_7e5s98p6ldu81xnn",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_ja29nnyrtomc0btv",
+            "position": {
+                "x": -2.049999952316284,
+                "y": 0.10000000149011612,
+                "z": 0.5
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -2.049999952316284,
+                "y": 0.10000000149011612,
+                "z": 0.5
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "office_chair_017",
+            "itemId": "item_k51cub5gi0404n2m",
+            "scenePath": "",
+            "zone": "Home Office",
+            "zoneId": "zone_7e5s98p6ldu81xnn",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_k51cub5gi0404n2m",
+            "position": {
+                "x": -3.200000047683716,
+                "y": 0.10000000149011612,
+                "z": 2.200000047683716
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -3.200000047683716,
+                "y": 0.10000000149011612,
+                "z": 2.200000047683716
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "office_table_030",
+            "itemId": "item_8os7mfod68ua6aw7",
+            "scenePath": "",
+            "zone": "Home Office",
+            "zoneId": "zone_7e5s98p6ldu81xnn",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_8os7mfod68ua6aw7",
+            "position": {
+                "x": -3.200000047683716,
+                "y": 0.10000000149011612,
+                "z": 1.5
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -3.200000047683716,
+                "y": 0.10000000149011612,
+                "z": 1.5
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "shelf_001",
+            "itemId": "item_haeemqc9i1bvwtbo",
+            "scenePath": "",
+            "zone": "Home Office",
+            "zoneId": "zone_7e5s98p6ldu81xnn",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_haeemqc9i1bvwtbo",
+            "position": {
+                "x": -2.049999952316284,
+                "y": 0.10000000149011612,
+                "z": 2.9000000953674318
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -2.049999952316284,
+                "y": 0.10000000149011612,
+                "z": 2.9000000953674318
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "chair022",
+            "itemId": "item_7cw8lgmciqma5n4i",
+            "scenePath": "",
+            "zone": "Kitchen",
+            "zoneId": "zone_66vw3ub2lkqn3nx1",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_7cw8lgmciqma5n4i",
+            "position": {
+                "x": -9.300000190734864,
+                "y": 0.10000000149011612,
+                "z": 9.600000381469727
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -9.300000190734864,
+                "y": 0.10000000149011612,
+                "z": 9.600000381469727
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "chair022",
+            "itemId": "item_ifdi5p2fh0bv1ooo",
+            "scenePath": "",
+            "zone": "Kitchen",
+            "zoneId": "zone_66vw3ub2lkqn3nx1",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_ifdi5p2fh0bv1ooo",
+            "position": {
+                "x": -9.300000190734864,
+                "y": 0.10000000149011612,
+                "z": 8.199999809265137
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -9.300000190734864,
+                "y": 0.10000000149011612,
+                "z": 8.199999809265137
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "chair022",
+            "itemId": "item_mfbe5y9mif8mlhzo",
+            "scenePath": "",
+            "zone": "Kitchen",
+            "zoneId": "zone_66vw3ub2lkqn3nx1",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_mfbe5y9mif8mlhzo",
+            "position": {
+                "x": -9.300000190734864,
+                "y": 0.10000000149011612,
+                "z": 8.899999618530274
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -9.300000190734864,
+                "y": 0.10000000149011612,
+                "z": 8.899999618530274
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_item_019",
+            "itemId": "item_kfcqa1esettekjza",
+            "scenePath": "",
+            "zone": "Kitchen",
+            "zoneId": "zone_66vw3ub2lkqn3nx1",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_kfcqa1esettekjza",
+            "position": {
+                "x": -11.699999809265137,
+                "y": 0.10000000149011612,
+                "z": 7.050000190734863
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -11.699999809265137,
+                "y": 0.10000000149011612,
+                "z": 7.050000190734863
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_item_030",
+            "itemId": "item_ydwto833yszq3iaz",
+            "scenePath": "",
+            "zone": "Kitchen",
+            "zoneId": "zone_66vw3ub2lkqn3nx1",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_ydwto833yszq3iaz",
+            "position": {
+                "x": -12.539999961853028,
+                "y": 0.10000000149011612,
+                "z": 8.399999618530274
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -12.539999961853028,
+                "y": 0.10000000149011612,
+                "z": 8.399999618530274
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_item_038",
+            "itemId": "item_hhizcgpt8cu9wqfy",
+            "scenePath": "",
+            "zone": "Kitchen",
+            "zoneId": "zone_66vw3ub2lkqn3nx1",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_hhizcgpt8cu9wqfy",
+            "position": {
+                "x": -12.65999984741211,
+                "y": 0.10000000149011612,
+                "z": 9.899999618530274
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -12.65999984741211,
+                "y": 0.10000000149011612,
+                "z": 9.899999618530274
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "kitchen_item_038",
+            "itemId": "item_xyuoa6hz9ymf66e2",
+            "scenePath": "",
+            "zone": "Kitchen",
+            "zoneId": "zone_66vw3ub2lkqn3nx1",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_xyuoa6hz9ymf66e2",
+            "position": {
+                "x": -10.100000381469727,
+                "y": 0.10000000149011612,
+                "z": 8.600000381469727
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -10.100000381469727,
+                "y": 0.10000000149011612,
+                "z": 8.600000381469727
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "Root_Scene",
+            "itemId": "item_srsgybvk9qxn68pt",
+            "scenePath": "",
+            "zone": "Kitchen",
+            "zoneId": "zone_66vw3ub2lkqn3nx1",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_srsgybvk9qxn68pt",
+            "position": {
+                "x": -10.100000381469727,
+                "y": 0.10000000149011612,
+                "z": 10.100000381469727
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -10.100000381469727,
+                "y": 0.10000000149011612,
+                "z": 10.100000381469727
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "shelf_001",
+            "itemId": "item_9eg2kmbts5wfsqxh",
+            "scenePath": "",
+            "zone": "Linen",
+            "zoneId": "zone_w41wz41e8v7j9b56",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_9eg2kmbts5wfsqxh",
+            "position": {
+                "x": -4.650000095367432,
+                "y": 0.10000000149011612,
+                "z": 4.28000020980835
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -4.650000095367432,
+                "y": 0.10000000149011612,
+                "z": 4.28000020980835
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "armchair_002",
+            "itemId": "item_e3hbcuu5c5gl39zg",
+            "scenePath": "",
+            "zone": "Living Room",
+            "zoneId": "zone_i2zzk2dicrqpexyq",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_e3hbcuu5c5gl39zg",
+            "position": {
+                "x": -7.400000095367432,
+                "y": 0.10000000149011612,
+                "z": 11.5
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 40.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -7.400000095367432,
+                "y": 0.10000000149011612,
+                "z": 11.5
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 40.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "Carpet_06",
+            "itemId": "item_obtzqhe56rr1b3fw",
+            "scenePath": "",
+            "zone": "Living Room",
+            "zoneId": "zone_i2zzk2dicrqpexyq",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_obtzqhe56rr1b3fw",
+            "position": {
+                "x": -5.699999809265137,
+                "y": 0.10000000149011612,
+                "z": 12.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -5.699999809265137,
+                "y": 0.10000000149011612,
+                "z": 12.0
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "coffee_table_012",
+            "itemId": "item_re2xgjo7zwlrdu4t",
+            "scenePath": "",
+            "zone": "Living Room",
+            "zoneId": "zone_i2zzk2dicrqpexyq",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_re2xgjo7zwlrdu4t",
+            "position": {
+                "x": -5.699999809265137,
+                "y": 0.10000000149011612,
+                "z": 12.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -5.699999809265137,
+                "y": 0.10000000149011612,
+                "z": 12.0
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "sofa_005",
+            "itemId": "item_wyp9i246f4dyuyul",
+            "scenePath": "",
+            "zone": "Living Room",
+            "zoneId": "zone_i2zzk2dicrqpexyq",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_wyp9i246f4dyuyul",
+            "position": {
+                "x": -5.5,
+                "y": 0.10000000149011612,
+                "z": 13.550000190734864
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -5.5,
+                "y": 0.10000000149011612,
+                "z": 13.550000190734864
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "prop_013",
+            "itemId": "item_htuy3e9d9ag6xy9s",
+            "scenePath": "",
+            "zone": "Mudroom",
+            "zoneId": "zone_9ghcqe1kgtcdianx",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_htuy3e9d9ag6xy9s",
+            "position": {
+                "x": -10.300000190734864,
+                "y": 0.10000000149011612,
+                "z": 6.300000190734863
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -10.300000190734864,
+                "y": 0.10000000149011612,
+                "z": 6.300000190734863
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "Root_Scene",
+            "itemId": "item_a0fo80pct2xaelpc",
+            "scenePath": "",
+            "zone": "Mudroom",
+            "zoneId": "zone_9ghcqe1kgtcdianx",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_a0fo80pct2xaelpc",
+            "position": {
+                "x": -13.399999618530274,
+                "y": 0.10000000149011612,
+                "z": 6.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -13.399999618530274,
+                "y": 0.10000000149011612,
+                "z": 6.0
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "shelf_001",
+            "itemId": "item_tccfa722xsj1qmjn",
+            "scenePath": "",
+            "zone": "Pantry",
+            "zoneId": "zone_xukxkn3j6guz6t9p",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_tccfa722xsj1qmjn",
+            "position": {
+                "x": -9.600000381469727,
+                "y": 0.10000000149011612,
+                "z": 7.199999809265137
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -9.600000381469727,
+                "y": 0.10000000149011612,
+                "z": 7.199999809265137
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "armchair_002",
+            "itemId": "item_acivnqosyrjodyv0",
+            "scenePath": "",
+            "zone": "Patio",
+            "zoneId": "zone_0kv9v31gen1p35g6",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_acivnqosyrjodyv0",
+            "position": {
+                "x": -1.0,
+                "y": 0.05000000074505806,
+                "z": 11.300000190734864
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -150.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -1.0,
+                "y": 0.05000000074505806,
+                "z": 11.300000190734864
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -150.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "armchair_002",
+            "itemId": "item_dmq89yfhg50ugesh",
+            "scenePath": "",
+            "zone": "Patio",
+            "zoneId": "zone_0kv9v31gen1p35g6",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_dmq89yfhg50ugesh",
+            "position": {
+                "x": -2.5,
+                "y": 0.05000000074505806,
+                "z": 11.199999809265137
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 150.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -2.5,
+                "y": 0.05000000074505806,
+                "z": 11.199999809265137
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 150.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "flower_010",
+            "itemId": "item_v9va01xjgq2srr38",
+            "scenePath": "",
+            "zone": "Patio",
+            "zoneId": "zone_0kv9v31gen1p35g6",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_v9va01xjgq2srr38",
+            "position": {
+                "x": -0.6499999761581421,
+                "y": 0.05000000074505806,
+                "z": 13.600000381469727
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -0.6499999761581421,
+                "y": 0.05000000074505806,
+                "z": 13.600000381469727
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "Table2",
+            "itemId": "item_bizsp5i7t26zpzhr",
+            "scenePath": "",
+            "zone": "Patio",
+            "zoneId": "zone_0kv9v31gen1p35g6",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_bizsp5i7t26zpzhr",
+            "position": {
+                "x": -1.850000023841858,
+                "y": 0.05000000074505806,
+                "z": 12.550000190734864
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -1.850000023841858,
+                "y": 0.05000000074505806,
+                "z": 12.550000190734864
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "bathroom_item_010",
+            "itemId": "item_lq1qbvszr8b01v5t",
+            "scenePath": "",
+            "zone": "Primary Bathroom",
+            "zoneId": "zone_0hwo1i2x0m7cqhgr",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_lq1qbvszr8b01v5t",
+            "position": {
+                "x": -1.399999976158142,
+                "y": 0.10000000149011612,
+                "z": 4.28000020980835
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -1.399999976158142,
+                "y": 0.10000000149011612,
+                "z": 4.28000020980835
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "bathroom_item_022",
+            "itemId": "item_p4pe7unhkfi1cd45",
+            "scenePath": "",
+            "zone": "Primary Bathroom",
+            "zoneId": "zone_0hwo1i2x0m7cqhgr",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_p4pe7unhkfi1cd45",
+            "position": {
+                "x": -0.4399999976158142,
+                "y": 0.10000000149011612,
+                "z": 5.599999904632568
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -0.4399999976158142,
+                "y": 0.10000000149011612,
+                "z": 5.599999904632568
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "Shower_01",
+            "itemId": "item_qifmp39bihwct30r",
+            "scenePath": "",
+            "zone": "Primary Bathroom",
+            "zoneId": "zone_0hwo1i2x0m7cqhgr",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_qifmp39bihwct30r",
+            "position": {
+                "x": -3.200000047683716,
+                "y": 0.10000000149011612,
+                "z": 4.400000095367432
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -3.200000047683716,
+                "y": 0.10000000149011612,
+                "z": 4.400000095367432
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "bed_015",
+            "itemId": "item_li8gyuz7533jhbda",
+            "scenePath": "",
+            "zone": "Primary Bedroom",
+            "zoneId": "zone_rsplyk8ygej3yw4v",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_li8gyuz7533jhbda",
+            "position": {
+                "x": -1.100000023841858,
+                "y": 0.10000000149011612,
+                "z": 8.300000190734864
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -1.100000023841858,
+                "y": 0.10000000149011612,
+                "z": 8.300000190734864
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "shelf_001",
+            "itemId": "item_368limtf2wzy6z4l",
+            "scenePath": "",
+            "zone": "Primary Bedroom",
+            "zoneId": "zone_rsplyk8ygej3yw4v",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_368limtf2wzy6z4l",
+            "position": {
+                "x": -3.0,
+                "y": 0.10000000149011612,
+                "z": 10.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -3.0,
+                "y": 0.10000000149011612,
+                "z": 10.0
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "shelf_051",
+            "itemId": "item_o37en4e5nh3eoyxm",
+            "scenePath": "",
+            "zone": "Primary Bedroom",
+            "zoneId": "zone_rsplyk8ygej3yw4v",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_o37en4e5nh3eoyxm",
+            "position": {
+                "x": -0.3499999940395355,
+                "y": 0.10000000149011612,
+                "z": 9.399999618530274
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -0.3499999940395355,
+                "y": 0.10000000149011612,
+                "z": 9.399999618530274
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "shelf_051",
+            "itemId": "item_wepd01wub8mf8o2c",
+            "scenePath": "",
+            "zone": "Primary Bedroom",
+            "zoneId": "zone_rsplyk8ygej3yw4v",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_wepd01wub8mf8o2c",
+            "position": {
+                "x": -0.3499999940395355,
+                "y": 0.10000000149011612,
+                "z": 7.199999809265137
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -0.3499999940395355,
+                "y": 0.10000000149011612,
+                "z": 7.199999809265137
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": -90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "closet_016",
+            "itemId": "item_manepd251cb8c6yw",
+            "scenePath": "",
+            "zone": "Walk-in Closet",
+            "zoneId": "zone_ndxftld626zvryhw",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_manepd251cb8c6yw",
+            "position": {
+                "x": -6.940000057220459,
+                "y": 0.10000000149011612,
+                "z": 8.300000190734864
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -6.940000057220459,
+                "y": 0.10000000149011612,
+                "z": 8.300000190734864
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "closet_016",
+            "itemId": "item_wsuvlz6txd908j0a",
+            "scenePath": "",
+            "zone": "Walk-in Closet",
+            "zoneId": "zone_ndxftld626zvryhw",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_wsuvlz6txd908j0a",
+            "position": {
+                "x": -5.199999809265137,
+                "y": 0.10000000149011612,
+                "z": 9.4399995803833
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -5.199999809265137,
+                "y": 0.10000000149011612,
+                "z": 9.4399995803833
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "group1257628551",
+            "itemId": "item_m8oodaktgh3wg7hf",
+            "scenePath": "",
+            "zone": "Walk-in Closet",
+            "zoneId": "zone_ndxftld626zvryhw",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/wall_epozrdainl920tit/item_m8oodaktgh3wg7hf",
+            "position": {
+                "x": -1.350000023841858,
+                "y": 1.399999976158142,
+                "z": -0.05999999865889549
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -5.550000190734863,
+                "y": 1.5,
+                "z": 9.739999771118164
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "prop_013",
+            "itemId": "item_ra5ycedf036lq1y2",
+            "scenePath": "",
+            "zone": "Walk-in Closet",
+            "zoneId": "zone_ndxftld626zvryhw",
+            "zoneColor": "#3b82f6",
+            "sourceGlb": "scene:Walkthrough/3 Fabble 5 local",
+            "hierarchyPath": "3 Fabble 5 local/scene-renderer/site_y263vsnhhgby8oti/building_f9m2dpxwuz9cyi11/level_pks5g4e65y98aaym/item_ra5ycedf036lq1y2",
+            "position": {
+                "x": -4.599999904632568,
+                "y": 0.10000000149011612,
+                "z": 8.800000190734864
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "scenePosition": {
+                "x": -4.599999904632568,
+                "y": 0.10000000149011612,
+                "z": 8.800000190734864
+            },
+            "sceneRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        }
+    ]
+}

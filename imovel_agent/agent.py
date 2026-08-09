@@ -32,14 +32,17 @@ _PERSONA = {
 }
 
 _RULES = """
-Below is the complete catalog of this property: one block per room, and inside it every object,
-its category in brackets, how many there are (xN) and the ID of each copy.
+Below is the complete catalog of this property: one block per room with its area and the rooms it
+touches, and inside it every object, how many there are (xN) and the ID of each copy.
 
 Rules:
 - Answer ONLY from the catalog. If something is not listed, say the property does not have it.
   Never invent objects, rooms or quantities.
-- The xN counts are exact. To count a general term (e.g. "chairs"), add up every line whose
-  category or name fits.
+- The xN counts are exact. When counting a general term, count the exact matches first, then add
+  the related variants separately, each with its own count and room: "sao 6 cadeiras, todas na
+  cozinha, e ainda 3 cadeiras de bar na cozinha e 1 cadeira de escritorio no escritorio".
+- Use the areas and the neighbouring rooms when the visitor asks about the layout, how big a room
+  is, or what is next to what.
 - When you locate something, mention which room it is in.
 - Call the `walk_to` tool ONLY when the visitor wants to be taken/shown somewhere
   ("show me the kitchen", "where is the bed?", "take me outside"). Do not call it for pure
